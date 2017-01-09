@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30581081D7ECCD3001CB976 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30581071D7ECCD3001CB976 /* TimerModel.swift */; };
+		C30B7EBC1DA5A65900A3E407 /* bicycle_bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = C30B7EBB1DA5A65900A3E407 /* bicycle_bell.wav */; };
+		C30B7EBE1DA5A66800A3E407 /* chime_big_ben.wav in Resources */ = {isa = PBXBuildFile; fileRef = C30B7EBD1DA5A66800A3E407 /* chime_big_ben.wav */; };
+		C30F08B21D7F7C0E00050E85 /* SimpleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30F08B11D7F7C0E00050E85 /* SimpleView.swift */; };
+		C320E8071E05CC6000F315BA /* fanfare3.wav in Resources */ = {isa = PBXBuildFile; fileRef = C320E8061E05CC6000F315BA /* fanfare3.wav */; };
+		C352992A1DB3E1DC00864532 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35299291DB3E1DC00864532 /* Interactor.swift */; };
+		C352992C1DB3E44100864532 /* CustomModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C352992B1DB3E44100864532 /* CustomModalTransitioningDelegate.swift */; };
 		C39D91201D7CD3B500E4C22F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D911F1D7CD3B500E4C22F /* AppDelegate.swift */; };
-		C39D91221D7CD3B500E4C22F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D91211D7CD3B500E4C22F /* ViewController.swift */; };
+		C39D91221D7CD3B500E4C22F /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D91211D7CD3B500E4C22F /* TimerViewController.swift */; };
 		C39D91251D7CD3B500E4C22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39D91231D7CD3B500E4C22F /* Main.storyboard */; };
 		C39D91271D7CD3B500E4C22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39D91261D7CD3B500E4C22F /* Assets.xcassets */; };
 		C39D912A1D7CD3B500E4C22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39D91281D7CD3B500E4C22F /* LaunchScreen.storyboard */; };
+		C39D91321D7CD40500E4C22F /* SimpleRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D91311D7CD40500E4C22F /* SimpleRing.swift */; };
+		C39D91341D7CDC4300E4C22F /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D91331D7CDC4300E4C22F /* Buttons.swift */; };
+		C3F0BE341DB4FA1400BFA899 /* SetupsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0BE331DB4FA1400BFA899 /* SetupsTVC.swift */; };
+		C3F0BE361DB4FA1B00BFA899 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0BE351DB4FA1B00BFA899 /* DismissAnimator.swift */; };
+		C3F0BE381DB4FA2200BFA899 /* ChoosingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F0BE371DB4FA2200BFA899 /* ChoosingPresentationController.swift */; };
+		C3F2C6B81DA51F39006554E5 /* NotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F2C6B71DA51F39006554E5 /* NotificationsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C39D911C1D7CD3B500E4C22F /* ViewsLayersTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsLayersTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C39D911F1D7CD3B500E4C22F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C39D91211D7CD3B500E4C22F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C30581071D7ECCD3001CB976 /* TimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		C30B7EBB1DA5A65900A3E407 /* bicycle_bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bicycle_bell.wav; sourceTree = "<group>"; };
+		C30B7EBD1DA5A66800A3E407 /* chime_big_ben.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chime_big_ben.wav; sourceTree = "<group>"; };
+		C30F08B11D7F7C0E00050E85 /* SimpleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleView.swift; sourceTree = "<group>"; };
+		C320E8061E05CC6000F315BA /* fanfare3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fanfare3.wav; sourceTree = "<group>"; };
+		C35299291DB3E1DC00864532 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		C352992B1DB3E44100864532 /* CustomModalTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		C39D911C1D7CD3B500E4C22F /* TimerForFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerForFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39D911F1D7CD3B500E4C22F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C39D91211D7CD3B500E4C22F /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		C39D91241D7CD3B500E4C22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C39D91261D7CD3B500E4C22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C39D91291D7CD3B500E4C22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39D912B1D7CD3B500E4C22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39D91311D7CD40500E4C22F /* SimpleRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRing.swift; sourceTree = "<group>"; };
+		C39D91331D7CDC4300E4C22F /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		C3F0BE331DB4FA1400BFA899 /* SetupsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupsTVC.swift; sourceTree = "<group>"; };
+		C3F0BE351DB4FA1B00BFA899 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		C3F0BE371DB4FA2200BFA899 /* ChoosingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosingPresentationController.swift; sourceTree = "<group>"; };
+		C3F2C6B71DA51F39006554E5 /* NotificationsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +61,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C35299241DB3E18900864532 /* Custom Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C352992B1DB3E44100864532 /* CustomModalTransitioningDelegate.swift */,
+				C3F0BE371DB4FA2200BFA899 /* ChoosingPresentationController.swift */,
+				C3F0BE351DB4FA1B00BFA899 /* DismissAnimator.swift */,
+				C35299291DB3E1DC00864532 /* Interactor.swift */,
+			);
+			name = "Custom Presentation";
+			sourceTree = "<group>";
+		};
+		C352992D1DB3E82500864532 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C39D91311D7CD40500E4C22F /* SimpleRing.swift */,
+				C39D91331D7CDC4300E4C22F /* Buttons.swift */,
+				C30F08B11D7F7C0E00050E85 /* SimpleView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		C39D91131D7CD3B500E4C22F = {
 			isa = PBXGroup;
 			children = (
-				C39D911E1D7CD3B500E4C22F /* ViewsLayersTraining */,
+				C39D911E1D7CD3B500E4C22F /* TimerForFun */,
 				C39D911D1D7CD3B500E4C22F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +93,38 @@
 		C39D911D1D7CD3B500E4C22F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C39D911C1D7CD3B500E4C22F /* ViewsLayersTraining.app */,
+				C39D911C1D7CD3B500E4C22F /* TimerForFun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C39D911E1D7CD3B500E4C22F /* ViewsLayersTraining */ = {
+		C39D911E1D7CD3B500E4C22F /* TimerForFun */ = {
 			isa = PBXGroup;
 			children = (
 				C39D911F1D7CD3B500E4C22F /* AppDelegate.swift */,
-				C39D91211D7CD3B500E4C22F /* ViewController.swift */,
+				C39D91211D7CD3B500E4C22F /* TimerViewController.swift */,
+				C3F0BE331DB4FA1400BFA899 /* SetupsTVC.swift */,
+				C3F2C6B71DA51F39006554E5 /* NotificationsModel.swift */,
+				C30581071D7ECCD3001CB976 /* TimerModel.swift */,
+				C352992D1DB3E82500864532 /* Views */,
+				C35299241DB3E18900864532 /* Custom Presentation */,
 				C39D91231D7CD3B500E4C22F /* Main.storyboard */,
+				C30B7EBB1DA5A65900A3E407 /* bicycle_bell.wav */,
+				C320E8061E05CC6000F315BA /* fanfare3.wav */,
+				C30B7EBD1DA5A66800A3E407 /* chime_big_ben.wav */,
 				C39D91261D7CD3B500E4C22F /* Assets.xcassets */,
 				C39D91281D7CD3B500E4C22F /* LaunchScreen.storyboard */,
 				C39D912B1D7CD3B500E4C22F /* Info.plist */,
 			);
-			path = ViewsLayersTraining;
+			path = TimerForFun;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C39D911B1D7CD3B500E4C22F /* ViewsLayersTraining */ = {
+		C39D911B1D7CD3B500E4C22F /* TimerForFun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C39D912E1D7CD3B500E4C22F /* Build configuration list for PBXNativeTarget "ViewsLayersTraining" */;
+			buildConfigurationList = C39D912E1D7CD3B500E4C22F /* Build configuration list for PBXNativeTarget "TimerForFun" */;
 			buildPhases = (
 				C39D91181D7CD3B500E4C22F /* Sources */,
 				C39D91191D7CD3B500E4C22F /* Frameworks */,
@@ -79,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = ViewsLayersTraining;
+			name = TimerForFun;
 			productName = ViewsLayersTraining;
-			productReference = C39D911C1D7CD3B500E4C22F /* ViewsLayersTraining.app */;
+			productReference = C39D911C1D7CD3B500E4C22F /* TimerForFun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,16 +146,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Artur Kablak";
 				TargetAttributes = {
 					C39D911B1D7CD3B500E4C22F = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 3B4HYH3EL8;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
-			buildConfigurationList = C39D91171D7CD3B500E4C22F /* Build configuration list for PBXProject "ViewsLayersTraining" */;
+			buildConfigurationList = C39D91171D7CD3B500E4C22F /* Build configuration list for PBXProject "TimerForFun" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C39D911B1D7CD3B500E4C22F /* ViewsLayersTraining */,
+				C39D911B1D7CD3B500E4C22F /* TimerForFun */,
 			);
 		};
 /* End PBXProject section */
@@ -123,7 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30B7EBE1DA5A66800A3E407 /* chime_big_ben.wav in Resources */,
 				C39D912A1D7CD3B500E4C22F /* LaunchScreen.storyboard in Resources */,
+				C320E8071E05CC6000F315BA /* fanfare3.wav in Resources */,
+				C30B7EBC1DA5A65900A3E407 /* bicycle_bell.wav in Resources */,
 				C39D91271D7CD3B500E4C22F /* Assets.xcassets in Resources */,
 				C39D91251D7CD3B500E4C22F /* Main.storyboard in Resources */,
 			);
@@ -136,8 +195,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39D91221D7CD3B500E4C22F /* ViewController.swift in Sources */,
+				C39D91221D7CD3B500E4C22F /* TimerViewController.swift in Sources */,
+				C3F0BE381DB4FA2200BFA899 /* ChoosingPresentationController.swift in Sources */,
+				C352992C1DB3E44100864532 /* CustomModalTransitioningDelegate.swift in Sources */,
+				C30581081D7ECCD3001CB976 /* TimerModel.swift in Sources */,
+				C352992A1DB3E1DC00864532 /* Interactor.swift in Sources */,
 				C39D91201D7CD3B500E4C22F /* AppDelegate.swift in Sources */,
+				C39D91321D7CD40500E4C22F /* SimpleRing.swift in Sources */,
+				C3F0BE361DB4FA1B00BFA899 /* DismissAnimator.swift in Sources */,
+				C30F08B21D7F7C0E00050E85 /* SimpleView.swift in Sources */,
+				C39D91341D7CDC4300E4C22F /* Buttons.swift in Sources */,
+				C3F2C6B81DA51F39006554E5 /* NotificationsModel.swift in Sources */,
+				C3F0BE341DB4FA1400BFA899 /* SetupsTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +246,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -223,8 +294,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -243,6 +316,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -252,10 +326,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ViewsLayersTraining/Info.plist;
+				INFOPLIST_FILE = TimerForFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.odvan.ViewsLayersTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = com.odvan.TimerForFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -263,17 +339,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ViewsLayersTraining/Info.plist;
+				INFOPLIST_FILE = TimerForFun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.odvan.ViewsLayersTraining;
+				PRODUCT_BUNDLE_IDENTIFIER = com.odvan.TimerForFun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C39D91171D7CD3B500E4C22F /* Build configuration list for PBXProject "ViewsLayersTraining" */ = {
+		C39D91171D7CD3B500E4C22F /* Build configuration list for PBXProject "TimerForFun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C39D912C1D7CD3B500E4C22F /* Debug */,
@@ -282,13 +360,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C39D912E1D7CD3B500E4C22F /* Build configuration list for PBXNativeTarget "ViewsLayersTraining" */ = {
+		C39D912E1D7CD3B500E4C22F /* Build configuration list for PBXNativeTarget "TimerForFun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C39D912F1D7CD3B500E4C22F /* Debug */,
 				C39D91301D7CD3B500E4C22F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
