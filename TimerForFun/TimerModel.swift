@@ -37,7 +37,7 @@ class TimerModel {
     var repeatInterval: TimeInterval?
     var signal: Bool = false
     var specialModeOn: Bool = false
-    var restInterval: TimeInterval?
+    var restInterval: TimeInterval? = 300
     
     var delegate: TimerUpdate?
     var notificationDelegate: TimerNotification?
